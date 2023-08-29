@@ -1,4 +1,4 @@
-package structural;
+package behavioral;
 
 
 import java.util.ArrayList;
