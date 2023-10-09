@@ -1,0 +1,11 @@
+Revising stuff from head first design patterns.
+
+** Chapter-1 **
+- Identify aspects of your program that vary and separate them from that stays the same.
+- Program to an interface and not to an implementation.
+
+We had parent Duck and all different (MallardDuck) were extending the parent Duck.
+Now we had to implement more behaviours that are not share across different ducks.
+
+So, separate out those behaviours and make them into composition.
+Like HAS-A instead of IS-A.
