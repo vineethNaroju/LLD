@@ -1,0 +1,10 @@
+Low level design for cache. Support 2 operations -
+- Put: This will allow user to put a value against a key in cache.
+- Get: This will allow user to get a value against a key from cache.
+- Eviction: Cache should support eviction of some keys in case cache is full.
+
+Expectations:
+1. Code should be functionally correct.
+2. Modular & readable - clean and professional level code.
+3. Code should be extensible and scalable - accomodate new requirements with minimal changes.
+4. Good OOPs design.

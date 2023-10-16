@@ -9,3 +9,8 @@ Now we had to implement more behaviours that are not share across different duck
 
 So, separate out those behaviours and make them into composition.
 Like HAS-A instead of IS-A.
+
+- Favour Composition over Inheritance.
+- STRATEGY PATTERN
+
+** Chapter-2 **
