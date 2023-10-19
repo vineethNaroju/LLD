@@ -1,0 +1,19 @@
+We want to build a cab booking platform to allow a rider to book a cab.
+
+>>>>> Info <<<<<<
+Location is (x,y).
+Distance between (x,y) and (a,b) is sqrt((x-a)^2 + (y-b)^2).
+Platform has decided the max distance a driver has to travel to pickup a rider.
+A cab has only 1 driver.
+Sharing of cabs is not allowed between riders.
+There is a single type of cab.
+
+
+>>>> Features <<<<
+Register a rider.
+Register a cab.
+Update a cab's location.
+A cab driver can switch off / on his availability.
+A rider can book a cab.
+Fetch history of all rides taken by a rider.
+End the trip.
