@@ -1,0 +1,10 @@
+Design an in-memory file system.
+
+File content has char count limit
+Directory has file & directory count limit
+
+- create file from path
+- create dir from path
+- list dir based on path
+- append data to file of path
+- print file contents
