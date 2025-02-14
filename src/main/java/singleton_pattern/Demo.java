@@ -25,9 +25,9 @@ class Singleton {
             return atomicReference.get();
         }
 
-        atomicReference.compareAndSet(null, new Singleton());
-
-        updated = true;
+        if(atomicReference.compareAndSet(null, new Singleton())) {
+            updated = true;
+        }
 
         return atomicReference.get();
 

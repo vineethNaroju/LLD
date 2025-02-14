@@ -1,0 +1,21 @@
+Strategy pattern
+observer pattern
+decorator pattern
+factory pattern
+singleton pattern
+command pattern
+adapter and facade pattern
+template method pattern
+iterator and composite pattern
+state pattern
+proxy pattern
+compound pattern
+Bridge
+Builder
+Chain of Responsibility
+Flyweight
+Interpreter
+Mediator
+Memento
+Prototype
+Visitor
