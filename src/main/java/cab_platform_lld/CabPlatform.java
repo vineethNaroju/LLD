@@ -26,7 +26,7 @@ public class CabPlatform {
     }
 
     public void updateCabLocation(Cab cab, ILocation location) {
-        cabService.
+
     }
 
     public void activateCab(Cab cab, ILocation location) {

@@ -8,7 +8,7 @@ public class Person {
     ILocation location;
 
 
-    Person(String name, ILocation location) {
+    public Person(String name, ILocation location) {
         this.name = name;
         this.location = location;
     }

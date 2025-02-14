@@ -23,12 +23,49 @@ enum VechileType {
     TRUCK
 }
 
+class Event {
+    private final int val;
+
+    Event(int val) {
+        this.val = val;
+    }
+
+    int getVal() {
+        return val;
+    }
+}
+
 public class Basics {
 
     public static void main(String[] args) {
         Basics basics = new Basics();
         basics.doSet();
         basics.doHash();
+        basics.doQueue();
+    }
+
+
+    public void doQueue() {
+
+        System.out.println("----------- QUEUE -------------");
+
+        PriorityQueue<Event> pq = new PriorityQueue<>(new Comparator<Event>() {
+            @Override
+            public int compare(Event o1, Event o2) {
+                return o1.getVal() - o2.getVal();
+            }
+        });
+
+        pq.add(new Event(10));
+        pq.add(new Event(20));
+
+        System.out.print("pq: ");
+
+        while(!pq.isEmpty()) {
+            System.out.print(pq.poll().getVal() + " ");
+        }
+
+        System.out.println();
     }
 
     public void doHash() {
